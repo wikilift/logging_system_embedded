@@ -1,5 +1,6 @@
 #define WL_LOG_USE_UART
 #define ARDUINO
+#define WL_LOG_DISABLE_COLORS
 #include "wl_log.h"
 
 void setup() {
