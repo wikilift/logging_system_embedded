@@ -31,7 +31,7 @@ Some of the supported platforms are:
 - **ESP8266 without Arduino**: Define `ESP8266`.
 - **RP2040 with Native SDK**: Define `RP2040`. If you are using FreeRTOS, also define `FREERTOS`.
 - **RP2040 with Arduino**: Define `ARDUINO_ARCH_RP2040`.
-- **STM32 with HAL**: Define `STM32F4`, `STM32F1` or `STM32F0` (depending on the microcontroller family). If you use FreeRTOS, also define `FREERTOS`.
+- **STM32**: Define `STM32F4`, `STM32F1` or `STM32F0` (depending on the microcontroller family). If you use FreeRTOS, also define `FREERTOS`.
 - **STM32 with Arduino**: Define `ARDUINO_ARCH_STM32`.
 
 
@@ -196,7 +196,7 @@ int main() {
     return 0;
 }
 ```
-
+For detailed examples, see **examples** folder
 
 ### Log levels
 
