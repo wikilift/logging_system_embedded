@@ -1,26 +1,39 @@
 {
     "name": "wl_log",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Logging library for embedded systems with UART and ANSI color support.",
-    "keywords": ["logging", "uart", "ansi", "buffer", "debug","log","tag","log level"],
-    "authors":
-    [
-      {
-        "name": "wikilift",
-        "email": "wikiliftapp@gmail.com",
-        "maintainer": true
-      }
+    "keywords": [
+        "logging",
+        "uart",
+        "ansi",
+        "buffer",
+        "debug",
+        "log",
+        "tag",
+        "log level"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wikilift/logging_system_embedded"
+    },
+    "authors": [
+        {
+            "name": "wikilift",
+            "email": "wikiliftapp@gmail.com",
+            "url": "https://github.com/wikilift/logging_system_embedded",
+            "maintainer": true
+        }
     ],
     "license": "MIT",
-    "frameworks": ["arduino", "espidf"],
-    "platforms": ["espressif32", "espressif8266", "atmelsam", "ststm32", "raspberrypi"],
-    "build": {
-      "srcFilter": "+<src/*>"
-    },
-    "examples": "examples/*",
-    "repository": {
-    "type": "git",
-    "url": "https://github.com/wikilift/logging_system_embedded"
-  }
-  }
-  
+    "frameworks": [
+        "arduino",
+        "espidf"
+    ],
+    "platforms": [
+        "espressif32",
+        "espressif8266",
+        "atmelsam",
+        "ststm32",
+        "raspberrypi"
+    ]
+}
